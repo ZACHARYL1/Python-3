@@ -1,0 +1,24 @@
+a = int(input())
+b = int(input())
+
+def love8(a,b): 
+  while True:
+    if a == 8:
+      print("True")
+      break
+    if b == 8:
+      print("True")
+      break
+    if a + b == 8:
+      print("True")
+      break
+    if a - b == 8:
+      print("True")
+      break
+    if b -a == 8:
+      print("True")
+      break
+    else:
+      print("False")
+      break
+love8(a, b)
